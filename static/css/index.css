@@ -292,8 +292,13 @@ a{
     fill:orangered;
 }
 .tile1 header{
-    background: -webkit-linear-gradient(left,orangered,brown);
-    height: 50px;
+    
+    height: 100px;
+}
+.price{
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
 }
 .tile2{
     width: 300px;
@@ -376,6 +381,9 @@ li{
     border-bottom-left-radius: 15px;
     
     
+}
+.content_container header{
+    padding: 20px;
 }
 .form_container{
     background:-webkit-linear-gradient(left,darkblue,#0066FF);
@@ -460,11 +468,11 @@ option{
     font-weight: 700;
     font-size: 16px;
 }
-#Events{
-    background: limegreen;
+#workshops{
+    background: rgb(6, 41, 6);
 }
 .workshops header{
-background: -webkit-linear-gradient(left,green,lime);
+background: -webkit-linear-gradient(left,green,rgb(6, 41, 6));
 height: 40px;
 }
 .workshops img{
@@ -497,6 +505,7 @@ background:orangered;
  padding:10px;
  height: 30px;
 }
+
 .event_name{
     font-size: 25px;
     font-weight: 500;
@@ -658,6 +667,7 @@ object-position: top;
 }
 .sponsors_container{
     padding: 10px;
+    background: #bbb;
 }
 .sponsors_container li{
     display: inline-block;
@@ -670,6 +680,7 @@ object-position: top;
 }
 .sponsors{
     text-align: center;
+
 }
 @keyframes change{
     0%{
