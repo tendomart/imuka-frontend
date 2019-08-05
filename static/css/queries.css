@@ -1,0 +1,90 @@
+@media(width:360px){
+    .top_header{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(0, 0, 73);
+        font-family: segoe ui light;
+    }
+    .navigation{
+        display: none;
+    }
+    
+    .category_container{
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-pack: center;
+        height: 37%;
+        overflow-x: scroll;
+        
+    }
+    .deals_heading{
+        background: rgb(5, 5, 70);
+        color: white;
+        font-weight: unset;
+        margin: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        width: 280px;
+    }
+    .fund_opportunity_conatiner{
+        display: -webkit-box;
+        -webkit-box-orient:horizontal;
+        -webkit-box-pack: center;
+        color: white;
+        overflow-x: scroll;
+    }
+    .colm1{
+        width: 40%;
+        text-align: center;
+       background: orangered;
+        color: white;
+        height: 200px;
+       border-radius: 10px;
+       margin: 10px;
+    }
+    .colm1 p{
+        font-size: 30px;
+      
+    }
+    .colm2{
+        width: 35%;
+        
+        background: orangered;
+        color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .colm_rw{
+        display: -webkit-box;
+        -webkit-box-orient:horizontal;
+        -webkit-box-pack: center;
+        overflow-x: scroll;
+    }
+    .header{
+        width: 280px;
+    }
+    .bottom_nav_mobile{
+        position: fixed;
+        bottom: 0;
+        background: white;
+        width: 100vw;
+        display: block;
+    }
+    .bottom_nav_mobile table{
+        width: 100vw;
+        text-align: center;
+    }
+    .bottom_nav_mobile svg{
+        width: 40px;
+        height: 30px;
+        fill:rgb(5, 5, 70);
+    }
+    #list{
+        fill: red;
+    }
+    .bottom_nav_mobile a{
+    color: rgb(5, 5, 70);
+    }
+}

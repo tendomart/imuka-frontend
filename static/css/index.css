@@ -1,0 +1,478 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.top_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(0, 0, 73);
+    font-family: segoe ui light;
+}
+.navigation{
+    background: rgb(0, 0, 73);
+    text-align: center;
+    padding: 0.020px;
+    
+}
+.navigation li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+#Ebene_1{
+    fill: black;
+    width: 25px;
+    height: 14px;
+}
+
+.search_container{
+    background: #f1f1f1;
+    width: 250px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+   
+}
+
+.search_container input{
+    background: transparent;
+    padding: 5px;
+    display: block;
+    width: 200px;
+    outline: none;
+    border: 0px;
+}
+/* css for image slider */
+/* end of css for image slider */
+.right_login_button_container{
+    float: right;
+}
+.login_button{
+    background: white;
+    color: blue;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.heading_container{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.category_container{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    height: 37%;
+    text-transform: capitalize;
+    
+}
+.category_tile{
+    width: 180px;
+    height: 150px;
+    background:white;
+    margin: 1px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px grey;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.category_tile a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.category_tile svg{
+    width: 100px;
+    height: 100px;
+}
+.a svg{
+    fill: blue;
+}
+.c svg{
+    fill:orangered;
+}
+.e svg{
+    fill: rgb(80, 6, 80);
+}
+.deals_heading{
+    background: rgb(5, 5, 70);
+    color: white;
+    font-weight: unset;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.deals_container{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    margin: 10px;
+}
+.colm1{
+    width: 22%;
+   background:rgb(247, 245, 245);
+    height: 350px;
+   border-radius: 10px;
+   margin: 10px;
+  text-align: center;
+  
+}
+.colm1 p{
+    font-size: 25px;
+  
+}
+.colm2 p{
+    font-size: 25px;
+}
+
+.colm2{
+    width: 22%;
+    text-align: center;
+    background:rgb(247, 245, 245);
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+.image_container{
+    width: 100%;
+    height: 80px;
+    background: -webkit-linear-gradient(left,darkblue,#0066FF);
+    
+}
+.card_footer{
+
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background: -webkit-linear-gradient(left,darkblue,#0066FF);
+    
+}
+.logo_container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: -40px;
+    margin-left: 20px;
+    object-fit: cover;
+    object-position: right;
+    border: 2px solid white;
+}
+.button{
+    text-decoration: none;
+    background: transparent;
+    padding: 5px 30px;
+    margin-top: 20px;
+    color:rgb(0, 0, 73);
+    border: 2px solid rgb(0, 0, 73);
+}
+.medium{
+    text-decoration: none;
+    background: transparent;
+    padding: 5px 30px;
+    color:orangered;
+    border: 2px solid orangered;
+    
+}
+.medium:hover{
+    background:orangered;
+    color: white;
+}
+.button:hover{
+background: rgb(0, 0, 73);
+color: white;
+border: 0px;
+transition: all 2s;
+}
+.company_name a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.more_container{
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+.more_container a{
+    color: rgb(0, 0, 73);
+}
+.funding_header{
+    background: rgb(5, 5, 70);
+    color: white;
+    font-weight: unset;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.fund_opportunity_conatiner{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack: center;
+ 
+    
+}
+.header{
+    background: rgb(5, 5, 70);
+    color: white;
+    font-weight: unset;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    
+  
+}
+.colm_rw{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack: center;
+    
+}
+.tile{
+    width: 250px;
+    height: 400px;
+    background: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+.tile1{
+    width: 250px;
+   
+    background:whitesmoke;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+   
+}
+.tile1 svg{
+    width: 40px;
+    height: 40px;
+    fill:orangered;
+}
+.tile1 ul{
+    margin-right: 40px;
+  
+}
+.tile1 li{
+    margin: 9px;
+   
+}
+#Ebene{
+    width: 40px;
+    height: 40px;
+    fill:orangered;
+}
+.tile1 header{
+    background: -webkit-linear-gradient(left,orangered,brown);
+    height: 50px;
+}
+.tile2{
+    width: 300px;
+    height: fit-content;
+    background: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+.tile2 header{
+    background: -webkit-linear-gradient(left,orangered,brown);
+    height: 50px;
+}
+.tile3 header{
+    background: -webkit-linear-gradient(left,orangered,brown);
+    height: 50px;
+}
+.tile4 header{
+    background: -webkit-linear-gradient(left,orangered,brown);
+    height: 50px;
+}
+.tile3{
+    width: 300px;
+    height: fit-content;
+   background: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+.tile4{
+    background: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+.tile5{
+    width: 200px;
+    height: 200px;
+    background: rgb(5, 5, 70);
+    text-align: center;
+    margin: 10px;
+    
+}
+.inner{
+    margin-top: 70px;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+.learn_button{
+    padding: 10px 30px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+}
+.bottom_nav_mobile{
+    display: none;
+}
+#popup_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+.content_container{
+    width: 400px;
+    height: 500px;
+    background-image: url(images/vc1.jpg);
+    background-size: cover;
+    margin-left:280px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    
+}
+.form_container{
+    background:-webkit-linear-gradient(left,darkblue,#0066FF);
+    width: 400px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+}
+.form_container header{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.wrapper{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    margin-top:100px;
+   
+    
+}
+
+.table_colm tr{
+    padding: 10px;
+    background: red;
+}
+.form_container table{
+    width: 30vw;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.button_container{
+    text-align: center;
+    padding: 10px;
+}
+.button_container button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    background: white;
+    color: #0066FF;
+    outline: none;
+}
+label{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+select{
+    background: transparent;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border: 2px solid white;
+    outline: none;
+}
+option{
+    background:blue;
+    border: 0px;
+    font-size: 15px;
+}
+.pic_container img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-top: -20px;
+}
+.pic_container{
+    text-align: center;
+}
+.events_header{
+    background:orangered;
+}
+.company_name{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+#Events{
+    background: limegreen;
+}
+.workshops header{
+background: -webkit-linear-gradient(left,green,lime);
+height: 40px;
+}
+.workshops img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: right top;
+    margin-top: -20px;
+}
+.workshops ul{
+    margin-right: 30px;
+}
+.workshops svg{
+    fill: lime;
+    width: 40px;
+    height: 40px;
+}
+.date{
+    font-size: 20px;
+    font-weight: 700;
+    color: lime;
+}

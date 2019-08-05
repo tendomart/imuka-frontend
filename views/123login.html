@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <!--Form title-->
+                <title>Totoya-Login Form </title>
+                <link rel="stylesheet" type="text/css" href="/css/login.css"></link>
+      <link type="text/css" href="/css/w3css.css" rel="stylesheet" />
+            <!--Use External Javascript files-->  
+    <script type="text/javascript" src="/login.js"></script>
+    
+    <script type="text/javascript" src="/js/index.js"></script>
+            </head>
+            <body>
+                    <div class="logo">
+                    </div>
+                <!--Create  a Form -->
+                <div class="w3-container w3-teal" >
+                       <center><h2>Spare Parts Mail : Mail Order System</h2></center> 
+                        </div>
+                        <div class="login-form">
+                <h2 style="color:teal"><b> Please Log In</b></h2>
+                
+                <form action="auth" method="POST">
+                        <h3 id="error"></h3>
+                        <input type="text" name="username" placeholder="Username" required>
+                        <input type="password" name="password"  id="password" placeholder="Password" required>
+                        <!-- An element to toggle between password visibility -->
+                        
+                                <!-- <input type="checkbox" onclick="togglePassword()">Show Password  -->
+                               
+                        <input type="submit" value="Login"> 
+                </form>
+                 <a style="text-decoration:none" href="register"><h4>Not Yet Registered ?</h4><p style="color: green"><b>Register Here</b></p></a>
+            </div>
+
+            
+            </body>
+               
+</html>

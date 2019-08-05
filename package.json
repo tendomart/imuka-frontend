@@ -1,0 +1,19 @@
+{
+  "name": "imuka-frontend",
+  "version": "1.0.0",
+  "description": "Imuka Frontend Server communicates using CORS with Java Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tendomart/imuka-frontend.git"
+  },
+  "author": "Tendo Martyn, Lubanga Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tendomart/imuka-frontend/issues"
+  },
+  "homepage": "https://github.com/tendomart/imuka-frontend#readme"
+}
