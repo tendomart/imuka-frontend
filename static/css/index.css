@@ -485,3 +485,52 @@ height: 40px;
     font-weight: 700;
     color: lime;
 }
+#visits{
+    background: -webkit-linear-gradient(right,darkblue,teal);
+
+}
+.card header{
+background: -webkit-linear-gradient(right,darkblue,teal);
+ padding:10px;
+ height: 30px;
+}
+.event_name{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+.card svg{
+fill: darkblue;
+width: 40px;
+height: 40px;
+}
+.svg_container{
+padding: 20px;
+}
+#trainings{
+    background: -webkit-linear-gradient(right,rgb(0, 132, 255),darkblue);
+
+}
+.t header{
+    background: -webkit-linear-gradient(right,rgb(0, 132, 255),darkblue);
+    padding:10px;
+    height: 30px;
+}
+.t svg{
+    fill: #0066FF;
+    width: 40px;
+    height: 40px;
+}
+#funding_opportunities{
+    background: rgb(48, 8, 48);
+}
+.funding_h header{
+    background: rgb(48, 8, 48);
+    padding:10px;
+    height: 30px;
+}
+.funding_h svg{
+    fill: rgb(48, 8, 48);
+    width: 40px;
+    height: 40px;
+}
