@@ -361,6 +361,8 @@ li{
     width: 100%;
     position: fixed;
     display: none;
+    z-index: 1;
+    overflow: hidden;
 }
 .content_container{
     width: 400px;
@@ -382,6 +384,8 @@ li{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 5px;
+    margin: unset;
+    position: unset;
 }
 .form_container header{
     color: white;
