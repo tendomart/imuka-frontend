@@ -660,8 +660,7 @@
     .content_container{
         width: 400px;
         height: 500px;
-        background-image: url(/img/vc1.jpg);
-        background-size: cover;
+        background: white;
         margin-left:280px;
         text-align: center;
         font-size: 25px;
