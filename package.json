@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tendomart/imuka-frontend/issues"
   },
-  "homepage": "https://github.com/tendomart/imuka-frontend#readme"
+  "homepage": "https://github.com/tendomart/imuka-frontend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
