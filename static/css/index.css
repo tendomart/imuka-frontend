@@ -380,8 +380,10 @@ li{
 .content_container{
     width: 400px;
     height: 500px;
-    background: white;
+    background-image: url(/img/new.png);
+    background-size: cover;
     margin-left:280px;
+    background-position: center;
     text-align: center;
     font-size: 25px;
     color: blue;
@@ -404,7 +406,7 @@ li{
     padding: 20px;
 }
 .form_container{
-    background:-webkit-linear-gradient(left,darkblue,#0066FF);
+    background:-webkit-linear-gradient(left,teal,teal);
     width: 400px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
